@@ -6,8 +6,21 @@ https://github.com/pypa/sampleproject
 """
 
 # Always prefer setuptools over distutils
-from setuptools import setup, find_packages
-import pathlib
+from tkinter import *
+import tkinter as tk
+from tkinter import ttk
+from tktooltip import ToolTip
+
+from tkinter import filedialog
+from tkinter.ttk import Progressbar
+from tkinter import messagebox
+
+import shutil
+
+from pytube import *
+import subprocess, sys, os
+from os.path import join as pjoin
+from subprocess import PIPE, run
 
 here = pathlib.Path(__file__).parent.resolve()
 
